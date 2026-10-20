@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jose's Taco Truck</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="max-w-2xl mx-auto p-8">
+
+  <!-- ===== THE HEADER ===== -->
+  <header class="mb-8">
+    <h1 id="truck-name" class="text-3xl font-bold">truck name goes here</h1>
+    <p id="tagline" class="mt-1">tagline goes here</p>
+    <p id="status" class="mt-4 text-lg">status goes here</p>
+  </header>
+
+  <!-- ===== TODAY'S SPECIAL ===== -->
+  <section class="mb-8">
+    <h2 id="todays-special" class="text-xl font-bold mb-2">Today's special</h2>
+    <p id="special-name" class="p-2">special name goes here</p>
+    <p id="special-price" class="p-2">special price goes here</p>
+  </section>
+
+  <!-- ===== WHERE TO FIND US ===== -->
+  <section class="mb-8">
+    <h2 id="location" class="text-xl font-bold mb-2">Where to find us</h2>
+    <table class="w-full text-left">
+      <tr>
+        <td id="monday" class="py-1 pr-4">day goes here</td>
+        <td id="monday-location" class="py-1">location goes here</td>
+      </tr>
+      <tr>
+        <td id="tuesday" class="py-1 pr-4">day goes here</td>
+        <td id="tuesday-location" class="py-1">location goes here</td>
+      </tr>
+      <tr>
+        <td id="wednesday" class="py-1 pr-4">day goes here</td>
+        <td id="wednesday-location" class="py-1">location goes here</td>
+      </tr>
+      <tr>
+        <td id="thursday" class="py-1 pr-4">day goes here</td>
+        <td id="thursday-location" class="py-1">location goes here</td>
+      </tr>
+      <tr>
+        <td id="friday" class="py-1 pr-4">day goes here</td>
+        <td id="friday-location" class="py-1">location goes here</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- ===== WHO IS WORKING TODAY ===== -->
+  <section class="mb-8">
+    <h2 id="crew-working" class="text-xl font-bold mb-2">Who's working today</h2>
+    <ul id="crew" class="list-disc pl-5"></ul>
+  </section>
+
+  <!-- ===== CALL AHEAD ===== -->
+  <section>
+    <h2 id="call" class="text-xl font-bold mb-2">Call ahead</h2>
+    <p id="phone">phone number goes here</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
