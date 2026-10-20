@@ -80,9 +80,5 @@ These are in `styles.css` and they are already written. You are deciding which e
 
 Notice what you are not doing. You are never writing a color or a font in JavaScript. JavaScript decides the situation, the stylesheet decides what that situation looks like.
 
-# Chris Estrada
-- Date- 10/20/26
-- Assignment Name- Jose's Tacos
-- What you did- added javascript elements to run the Jose's Tacos page
-- Peer Review:
-- Review:
+Reviewer: Callen Thomason
+Review: The website looks really good, and you followed the directions well. You are missing a README with your name, date, assignment, and what you accomplished though. I really like how you handled the days of the week and locations. Very clever. I'm not sure why you console.log everything, seems unnecassary. Overall great work. 
